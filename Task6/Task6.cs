@@ -19,20 +19,14 @@
                 counter++;
                 if (i+k==magicNumber)
                 {
-                 
                     Console.Write("Combination N:{0} ",counter);
                     Console.WriteLine("({0} + {1} = {2})", i, k, magicNumber);
                     return;
                 }
-                
             }
-               
-            }
+         }
         Console.WriteLine("{0} combinations - neither equals {1}", counter, magicNumber);
-    }
-
-
-
+        }
 
     }
     
